@@ -1,6 +1,6 @@
 {
   "name": "@nglibrary/utils",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Utility library for Angular 4+",
   "main": "./dist/index.umd.js",
   "unpkg": "./dist/index.umd.min.js",
@@ -54,7 +54,7 @@
     "test": "karma start",
     "test:watch": "karma start --auto-watch --no-single-run",
     "tslint": "tslint",
-    "release": "release-it --npm.publish --non-interactive"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "dependencies": {},
   "peerDependencies": {
@@ -97,7 +97,6 @@
     "karma-webpack": "^2.0.3",
     "node-sass": "^4.5.2",
     "raw-loader": "^0.5.1",
-    "release-it": "^2.8.0",
     "rimraf": "2.6.1",
     "rxjs": "^5.3.1",
     "sass-loader": "^6.0.5",
@@ -109,6 +108,7 @@
     "webpack": "^2.5.1",
     "webpack-angular-externals": "^1.0.2",
     "webpack-rxjs-externals": "^1.0.0",
-    "zone.js": "^0.8.10"
+    "zone.js": "^0.8.10",
+    "semantic-release": "^6.3.6"
   }
 }
