@@ -33,6 +33,5 @@ export class UtilsModule {
       throw new Error(
         'UtilsModule is already loaded. Import it in the AppModule only');
     }
-    console.log('config', config);
   }
 }
