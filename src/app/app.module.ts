@@ -1,6 +1,7 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BrowserModule } from '@angular/platform-browser';
+import { UtilsModule } from '@nglibrary/utils';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -8,7 +9,14 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
+    ReactiveFormsModule,
+    UtilsModule.forRoot({
+      controlInfo: {
+        prefix: 'info'
+      }
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
