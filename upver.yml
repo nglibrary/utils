@@ -1,0 +1,3 @@
+- file:  upver.yml
+  search: '"version": (".+")'
+  replacement: '"version": "<@VERSION@>"'
