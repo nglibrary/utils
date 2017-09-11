@@ -94,7 +94,7 @@
     "karma-webpack": "^2.0.3",
     "node-sass": "^4.5.2",
     "raw-loader": "^0.5.1",
-    "rimraf": "2.6.1",
+    "rimraf": "2.6.2",
     "rxjs": "^5.3.1",
     "sass-loader": "^6.0.5",
     "semantic-release": "^6.3.6",
